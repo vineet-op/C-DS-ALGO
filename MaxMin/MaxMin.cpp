@@ -43,7 +43,7 @@ int getMax(int num[], int n)
 int main()
 {
     int size;
-    cout << "Enter size of the array";
+    cout << "Enter size of the array ";
     cin >> size;
 
     // declaring array
