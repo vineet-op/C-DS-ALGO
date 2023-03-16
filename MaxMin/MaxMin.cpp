@@ -43,20 +43,24 @@ int getMax(int num[], int n)
 int main()
 {
     int size;
+    cout << "Enter size of the array";
     cin >> size;
 
     // declaring array
-
     int fruits[100];
 
     // Taking inputs
-
+    cout << "Enter"
+         << " " << size << " "
+         << "Elements";
     for (int i = 0; i < size; i++)
     {
         cin >> fruits[i];
     }
 
-    cout << "Maximum numbers" << getMax(fruits, size) << endl;
-    cout << "Minimum numbers" << getMin(fruits, size) << endl;
+    cout << "Maximum numbers"
+         << " " << getMax(fruits, size) << endl;
+    cout << "Minimum numbers"
+         << " " << getMin(fruits, size) << endl;
     return 0;
 }
