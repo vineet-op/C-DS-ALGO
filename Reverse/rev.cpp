@@ -29,6 +29,7 @@ void reverse(int arr[], int n)
 
 int main()
 {
+
     int arr[6] = {1, 5, 7, 6, 54, 10};
     int brr[5] = {1, 3, 5, 7, 9};
 
